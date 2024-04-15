@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplicación de Inversión de Palabras</title>
+  <!-- Se incluye el Bootstrap CSS para estilos -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Se enlaza el archivo de estilos personalizados -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <!-- Formulario para ingresar una palabra -->
+    <div class="form-group">
+      <label for="inputWord">Ingrese una palabra:</label>
+      <input type="text" class="form-control" id="inputWord">
+    </div>
+    <!-- Botón para invertir la palabra ingresada -->
+    <button type="button" class="btn btn-primary" id="btnSubmit">Invertir Palabra</button>
+    <!-- Contenedor para mostrar la palabra ingresada y su inversión -->
+    <div id="output" class="mt-3"></div>
+  </div>
+  
+  <!-- Se incluye jQuery y Bootstrap JS para funcionalidades -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Se incluye el archivo de JavaScript personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
